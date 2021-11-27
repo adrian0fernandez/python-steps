@@ -1,10 +1,10 @@
 import time
 
-def fibo_gen():
+def fibo_gen(max:int):
     n1 = 0
     n2 = 1
     counter = 0
-    while True:
+    while counter <= max:
         if counter == 0:
             counter += 1
             yield n1
